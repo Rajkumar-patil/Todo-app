@@ -1,0 +1,117 @@
+
+input{
+    width: 100%;
+}
+
+.item{
+    text-align: left;
+    
+
+}
+
+.kg-row{
+    margin: 10px 5px;
+}
+
+.kg-btn{
+    min-width: 80px;
+}
+/* Clean Professional App UI */
+
+body {
+  background-color: #f4f6f8;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.tudoContainer {
+  max-width: 700px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+h1, h3 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dcdfe3;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+button.btn-primary {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+button.btn-danger {
+  padding: 8px 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e74c3c;
+  color: white;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+button.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+.kg-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 18px 20px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 12px;
+  border-radius: 12px;
+}
+
+.col-6, .col-4, .col-2 {
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.item {
+  margin-top: 30px;
+}
+
+h3 b {
+  background-color: #ffeaa7;
+  padding: 10px 16px;
+  border-radius: 12px;
+  display: inline-block;
+  font-weight: 500;
+}
