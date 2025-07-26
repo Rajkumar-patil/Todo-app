@@ -1,6 +1,6 @@
 import AppName from "./components/AppName";
 import AddTodo from "./components/AddTodo";
-import TodoItems from "./components/TodoItems"; // ✅ correct
+import Todoitems from "./components/Todoitems";
 import "./App.css";
 import Welcome from "./components/Welcome";
 import { useState } from "react";
@@ -25,7 +25,7 @@ function App() {
       <AppName />
       <AddTodo onAddTodo={handleAddTodo} />
       {todoItems.length === 0 && <Welcome />}
-      <TodoItems TodoItems={todoItems} onDelete={onDeleteclcik} />
+      <Todoitems TodoItems={todoItems} onDelete={onDeleteclcik} />
     </center>
   );
 }
